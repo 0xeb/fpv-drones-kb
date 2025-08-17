@@ -10,14 +10,14 @@ This is a growing, work-in-progress FPV (First Person View) drone knowledge base
 
 ```
 fpv-drones-kb/
-├── README.md           # Main repository overview and index
-├── _assets/           # Shared/global assets (logos, etc.)
-│   └── fpv-kb-logo.png
-└── hdzero/            # HDZero-specific documentation
-    ├── streaming.md   # RTSP streaming setup guide
-    └── _assets/      # HDZero-specific images
-        └── goggle-wifi.png
+├── README.md                        # Main repository overview and index
+├── happymodel-tinywhoop-setup/     # Tinywhoop setup guides
+│   └── setup.md                    # Mobula6 HD Race configuration guide
+└── hdzero/                         # HDZero-specific documentation
+    └── streaming.md                # RTSP streaming setup guide
 ```
+
+**Note**: Asset folders (`_assets/`) contain images and media files. There's no need to explore or list individual asset files.
 
 ## Content Management
 
@@ -29,7 +29,6 @@ fpv-drones-kb/
   - Clear requirements section
   - Step-by-step instructions
   - Command examples with explanations
-  - Troubleshooting sections
   - Visual aids where appropriate (stored in `_assets/` directory)
 
 ### Adding New Content
@@ -46,13 +45,14 @@ When adding new FPV-related documentation:
 
 The knowledge base currently includes:
 - **HDZero**: Video transmission and streaming guides
+- **Tinywhoop Setup**: Configuration guides for HappyModel drones (Mobula6 HD Race)
 
 ### Planned Topics
 
 As a work-in-progress knowledge base, future content may cover:
+- Radio control systems (ELRS, Crossfire, FrSky)
 - Video transmission systems (analog, DJI, Walksnail)
 - Flight controllers and firmware (Betaflight, INAV, Ardupilot)
-- Radio control systems (ELRS, Crossfire, FrSky)
 - FPV hardware guides and build logs
 - Racing and freestyle techniques
 - Safety and regulations
