@@ -16,7 +16,7 @@ This comprehensive guide walks you through setting up your HappyModel Mobula6 HD
 
 ## Overview
 
-The HappyModel Mobula6 HD Race (HDZero edition) is a popular 65mm tinywhoop drone that offers excellent performance for both indoor and outdoor flying. As a BNF (Bind and Fly) drone, it comes pre-assembled with the props already installed correctly, making it easier to configure and get flying quickly. This guide covers the essential Betaflight configuration steps to get your drone flight-ready.
+The HappyModel [Mobula6 HD Race (HDZero edition)](https://www.hd-zero.com/product-page/happymodel-mobula6-race-hd) is a popular 65mm tinywhoop drone that offers excellent performance for both indoor and outdoor flying. As a BNF (Bind and Fly) drone, it comes pre-assembled with the props already installed correctly, making it easier to configure and get flying quickly. This guide covers the essential Betaflight configuration steps to get your drone flight-ready.
 
 Please check the supporting video here: [https://www.youtube.com/watch?v=pySlHBlj5Zg](https://www.youtube.com/watch?v=pySlHBlj5Zg).
 
