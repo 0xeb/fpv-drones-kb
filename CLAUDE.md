@@ -11,10 +11,15 @@ This is a growing, work-in-progress FPV (First Person View) drone knowledge base
 ```
 fpv-drones-kb/
 ├── README.md                        # Main repository overview and index
+├── _assets/                         # Global shared images and media
+├── _plan/                           # Work-in-progress planning documents
 ├── happymodel-tinywhoop-setup/     # Tinywhoop setup guides
 │   └── setup.md                    # Mobula6 HD Race configuration guide
-└── hdzero/                         # HDZero-specific documentation
-    └── streaming.md                # RTSP streaming setup guide
+├── hdzero/                         # HDZero-specific documentation
+│   └── streaming.md                # RTSP streaming setup guide
+└── radiomaster-transmitters/       # RadioMaster transmitter documentation
+    ├── README.md                   # Overview of RadioMaster products
+    └── FAQ.md                      # Frequently asked questions
 ```
 
 **Note**: Asset folders (`_assets/`) contain images and media files. There's no need to explore or list individual asset files.
@@ -40,12 +45,15 @@ When adding new FPV-related documentation:
 4. Update the main README.md to include links to new guides
 5. Use relative links for internal documentation references
 6. Reference images from markdown files using `./_assets/image.png` for local assets
+7. For FAQ-style content, follow the pattern established in `radiomaster-transmitters/FAQ.md`
+8. Work-in-progress content can be placed in the `_plan/` directory until ready
 
 ### Current Content
 
 The knowledge base currently includes:
 - **HDZero**: Video transmission and streaming guides
 - **Tinywhoop Setup**: Configuration guides for HappyModel drones (Mobula6 HD Race)
+- **RadioMaster Transmitters**: Product overviews and FAQ documentation (work-in-progress)
 
 ### Planned Topics
 
